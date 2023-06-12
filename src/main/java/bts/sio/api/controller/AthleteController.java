@@ -1,4 +1,4 @@
-package bts.sio.api.Controller;
+package bts.sio.api.controller;
 
 import bts.sio.api.model.Athlete;
 import org.springframework.beans.factory.annotation.Autowired;
