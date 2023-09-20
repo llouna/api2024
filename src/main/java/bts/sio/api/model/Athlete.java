@@ -27,8 +27,4 @@ public class Athlete {
     @JoinColumn(name = "pays_id")
     private Pays pays;
 
-
-
-
-
 }
