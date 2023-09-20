@@ -18,9 +18,6 @@ public class Sport {
     @Column(name="descriptif")
     private String descriptif;
 
-    @ManyToOne
-    @JoinColumn(name = "athlete_id")
-    private Athlete athelete;
 
 
 }
