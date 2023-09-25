@@ -2,6 +2,7 @@ package bts.sio.api.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import java.util.Set;
 
 @Data
 @Entity
@@ -22,6 +23,9 @@ public class Sport {
     @JoinColumn(name = "olympiade_id")
     private Olympiade olympiade;
 
+
+    @OneToMany(mappedBy = "sport")
+    private Set<Epreuve> lesEpreuves;
 
 
 }

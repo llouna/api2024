@@ -48,10 +48,6 @@ public class EpreuveController {
             if(nom != null) {
                 currentEpreuve.setNom(nom);;
             }
-            String genre = epreuve.getGenre();
-            if(genre != null) {
-                currentEpreuve.setGenre(genre);;
-            }
 
             Sport sport = epreuve.getSport();
             if(sport != null) {
