@@ -61,4 +61,9 @@ public class SportController {
             return null;
         }
     }
+
+    @DeleteMapping("/sport/{id}")
+    public void deleteSport(@PathVariable("id") final Long id) {
+        sportService.deleteSport(id);
+    }
 }

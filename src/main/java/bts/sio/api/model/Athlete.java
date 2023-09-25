@@ -31,4 +31,8 @@ public class Athlete {
     @JoinColumn(name = "sport_id")
     private Sport sport;
 
+    @ManyToOne
+    @JoinColumn(name = "epreuve_id")
+    private Epreuve epreuve;
+
 }
